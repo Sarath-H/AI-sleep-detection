@@ -20,8 +20,8 @@ labelclick.pack(fill="y")
 labelclose = Label(content, text="After opening the GUI, press 'q' to quit",fg="black",bg="white")
 labelclose.pack(fill="y")
 def onclick():
-	import Drowziness_Detection as dd
-	dd
+	import AISleepDetection as AIDD
+	AIDD
 
 bt1 = Button(content,text="Okay",fg="black",bg="white",command=onclick)
 bt1.pack(fill="x")
